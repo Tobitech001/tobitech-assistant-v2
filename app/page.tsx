@@ -1,3 +1,5 @@
+import FormMonitor from "@/components/FormMonitor";
+
 export default function HomePage() {
   return (
     <div className="p-6 space-y-4">
@@ -6,6 +8,9 @@ export default function HomePage() {
         I’m your daily AI-powered assistant. I’ll send you content, monitor your forms, and remind you of tasks.
       </p>
       <p>Let’s build your productivity together 🚀</p>
+
+      {/* ✅ This is the missing piece */}
+      <FormMonitor />
     </div>
   );
 }
