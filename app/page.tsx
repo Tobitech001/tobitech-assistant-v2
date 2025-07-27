@@ -1,10 +1,11 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1 className="text-4xl font-bold mb-4">TOBI TECH Assistant</h1>
-      <p className="text-lg text-center max-w-xl">
-        Welcome to your personal AI dashboard. This system will help you automate content ideas, posting, reminders, and ad creation across all platforms.
+    <div className="p-6 space-y-4">
+      <h1 className="text-3xl font-bold">👋 Welcome to TOBI TECH Assistant</h1>
+      <p className="text-lg">
+        I’m your daily AI-powered assistant. I’ll send you content, monitor your forms, and remind you of tasks.
       </p>
-    </main>
+      <p>Let’s build your productivity together 🚀</p>
+    </div>
   );
 }
